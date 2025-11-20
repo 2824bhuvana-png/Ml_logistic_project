@@ -1,0 +1,59 @@
+# Machine Learning Classification Project
+
+This project focuses on building and evaluating three machine learning models to classify a given dataset.
+
+## 📌 Models Used
+1. Logistic Regression  
+2. Random Forest Classifier  
+3. Support Vector Machine (SVM)
+
+---
+
+## 📊 Project Workflow
+
+### *1. Data Loading*
+- The dataset was loaded using pandas.
+- Basic structure of data was inspected.
+
+### *2. Data Preprocessing*
+- Missing values were checked and handled.
+- Categorical features (if any) were encoded.
+- Numerical features were scaled using StandardScaler.
+
+### *3. Train-Test Split*
+- The dataset was split into 80% training and 20% testing.
+
+### *4. Model Training*
+Each model was trained on the training data:
+- Logistic Regression
+- Random Forest
+- SVM
+
+### *5. Accuracy Comparison*
+Accuracy on the test dataset:
+- Logistic Regression: *X%*
+- Random Forest: *Y%*
+- SVM: *Z%*
+
+(Replace with your actual results)
+
+### *6. Best Model Selection*
+Based on accuracy values, the best performing model was selected.
+
+### *7. Saving the Best Model*
+- The best model was saved using pickle.
+- This file can be loaded later for predictions.
+
+---
+
+## 📎 Files in Repository
+- ML_logistic_project.ipynb – Main Jupyter Notebook  
+- best_model.pkl – Best trained model (if saved)  
+- README.md – Project description  
+- REPORT.md – Detailed project explanation  
+- requirements.txt – Libraries used  
+
+---
+
+## 🔧 Requirements
+Install dependencies using:
